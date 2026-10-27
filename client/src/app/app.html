@@ -1,0 +1,6 @@
+<div>
+  @for (book of list(); track $index) {
+    <div>{{ book.author }}: {{ book.name }}</div>
+  }
+  <button (click)="add()">Add</button>
+</div>
